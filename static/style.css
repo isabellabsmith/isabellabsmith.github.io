@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html, body{
+    font-family: Lato, Arial;
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(38, 1, 50);
+    overflow-y: auto;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    padding: 0 15px;
+    z-index: 9997;
+}
+
+#header .profile img{
+    margin: 15px auto;
+    display: block;
+    width: 130px;
+    border: 6px solid aliceblue;
+    border-radius: 30%;
+}
+
+#header .profile h1{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    text-align: center;
+    color: aliceblue;
+}
+
+#header .profile .social-links a {
+    font-size: 1rem;
+    color: rgb(212, 185, 237);
+    padding: .6rem;
+    margin-right: 1rem;
+    border-radius: 30%;
+    background: rgb(82, 6, 125);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#header .profile .social-links a:hover {
+    background: rgb(40, 75, 189);
+}
+
+.nav-menu{
+    padding: 1.5rem;
+}
+
+.nav-menu a,
+.nav-menu a:focus {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.nav-menu a i,
+.nav-menu a:focus i {
+    padding-right: 0.8rem;
+    color: rgb(109, 44, 199);
+    font-size: 24px;
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover > a {
+    text-decoration: none;
+    background: rgb(4, 23, 84);
+}
+
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover > a i {
+    color: rgb(200, 98, 240);
+}
