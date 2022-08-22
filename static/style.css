@@ -184,3 +184,46 @@ i.menu-mobile {
 .section-bg {
     background-color: #ded7f9;
 }
+
+.cv .cv-title {
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#c862f0;
+}
+
+.cv .cv-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #c862f0;
+    position: relative;
+}
+
+.cv .cv-item h4 {
+    line-height: 18px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    color: #260132;
+    margin-bottom: 10px;
+}
+
+.cv .cv-item h5 {
+    background: #ded7f9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* "Bolinhas" dos itens do CV */
+.cv .cv-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #c862f0;
+    background: #fff;
+    border-radius: 50%;
+    left: -9px;
+}

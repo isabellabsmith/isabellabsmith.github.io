@@ -42,11 +42,11 @@
                   <a class="nav-link" href="#habilidades"><i class="bi bi-card-checklist"></i>Habilidades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio"><i class="bi bi-bookmark-heart"></i></i>Portfolio</a>
-                  </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#curriculo"><i class="bi bi-braces"></i>Currículo</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio"><i class="bi bi-bookmark-heart"></i></i>Portfolio</a>
+                  </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contato"><i class="bi bi-envelope-fill"></i>Contato</a>
                 </li>
@@ -209,22 +209,6 @@
                     </div>
                     <div class="col-md-6">
                         <div class="col-md-6">
-                            <p class="mt-3">Azure</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width:30%; background-color: #430b56" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="col-md-6">
-                            <p class="mt-3">Android</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width:40%; background-color: #430b56" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="col-md-6">
                             <p class="mt-3">SQL</p>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width:75%; background-color: #430b56" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -270,18 +254,6 @@
                               </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <p class="mt-3">Comprometimento</p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width:95%; background-color: #8f2bc0" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="mt-3">Atenção a Detalhes</p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width:89%; background-color: #8f2bc0" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                    </div>
                 </div>
 
                 <hr class="w-50 me-auto ms-auto">
@@ -315,6 +287,61 @@
         </section>
 
         <!-- Parte de Currículo com o uso do Bootstrap e do CSS -->
+        <section class="mt-5 cv" id="curriculo">
+            <div class="container pb-5">
+                <h2 class="pt-3 pb-4">Currículo</h2>
+
+                <!-- Experiências separadas em caixas com bordas em 2 colunas-->
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="cv-title">Formação</h3>
+                        <div class="cv-item">
+                            <h4>Análise e Desenvolvimento de Sistemas</h4>
+                            <h5>2021 - 2023</h5>
+                            <p><em>Uninter</em></p>
+                            <p>Curso superior voltado para Tecnologia, com grade curricular que contempla desenvolvimento Front e Backend. </p>
+                        </div>
+                        <div class="cv-item">
+                            <h4>Engenharia de Produção</h4>
+                            <h5>2014 - 2018</h5>
+                            <p><em>PUC-Campinas</em></p>
+                            <p>Bacharel em Engenharia de Produção, curso em que tive meu primeiro contato com o desenvolvimento. </p>
+                        </div>
+                        <div class="cv-item">
+                            <h4>Letras</h4>
+                            <h5>2013 - 2018</h5>
+                            <p><em>Unicamp</em></p>
+                            <p>Licenciatura em Letras, com foco em Linguística Aplicada voltada para Tecnologia.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="cv-title">Profissional</h3>
+                        <div class="cv-item">
+                            <h4>Desenvolvedora Backend Jr</h4>
+                            <h5>2022 - atual</h5>
+                            <p><em>CI&T</em></p>
+                            <p>Desenvolvedora Backend Java. MySQL, SQL, JPA, Spring, microsserviços, JUnit, Postman. </p>
+                        </div>
+                        <div class="cv-item">
+                            <h4>Estagiária de Tecnologia</h4>
+                            <h5>2021 - 2022</h5>
+                            <p><em>Venturus</em></p>
+                            <p>Atuei em projetos voltados para o desenvolvimento Backend, tendo passado por Android, Java e Node/TypeScript. </p>
+                        </div>
+                        <div class="cv-item">
+                            <h4>Tech Recruiter</h4>
+                            <p><em>Daitan/Dextra/Sensedia</em></p>
+                            <h5>2018 - 2020</h5>
+                            <p>Fui Tech Recruiter em empresas de tecnologia, contratando profissionais de diversos perfis técnicos. Foi aí que me apaixonei por tecnologia e decidi realizar uma transição de carreira. </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Para o portfolio, foi usada a biblioteca Carousel do Bootstrap-->
+        <!-- Como meus projetos são de Backend, coloquei imagems ilustrativas apenas -->
 
     </main>
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
