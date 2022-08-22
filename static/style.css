@@ -189,13 +189,13 @@ i.menu-mobile {
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
-    color:#c862f0;
+    color:#6d2cc7;
 }
 
 .cv .cv-item {
     padding: 0 0 20px 20px;
-    margin-top: -2px;
-    border-left: 2px solid #c862f0;
+    margin-top: 2px;
+    border-left: 2px solid #6d2cc7;
     position: relative;
 }
 
@@ -222,7 +222,7 @@ i.menu-mobile {
     position: absolute;
     width: 16px;
     height: 16px;
-    border: 2px solid #c862f0;
+    border: 2px solid #6d2cc7;
     background: #fff;
     border-radius: 50%;
     left: -9px;
