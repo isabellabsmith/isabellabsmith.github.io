@@ -340,7 +340,7 @@
             </div>
         </section>
 
-        <!-- Para o portfolio, foi usada a biblioteca Carousel do Bootstrap-->
+        <!-- Para o portfolio, foi usada a biblioteca Carousel e os Cards do Bootstrap-->
         <!-- Como meus projetos são de Backend, coloquei imagems ilustrativas apenas -->
         <section id="portfolio" class="section-bg mt-5">
             <div class="container pb-5 pt-5">
@@ -348,28 +348,189 @@
 
                 <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
                     </div>
                     <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="10000">
-                        
-                      <div class="carousel-item" data-bs-interval="2000">
-                        
-                      </div>
+                        <div class="carousel-item active" data-bs-interval="10000">
+
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="../static/img/Shake.png" class="card-img-top img-fluid w-100"
+                                            alt="print do blog">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Total Shake</h5>
+                                            <p class="card-text">Desafio do Bootcamp Tomorrow's Talent de Java, visando TDD e desenvolvimento de funcionalidades.</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/isabellabsmith/total_shakes_semana_01"
+                                                    target='_blank' class="btn btn-outline-dark me-3"><i
+                                                        class="bi bi-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="../static/img/TicTacToe.png" class="card-img-top"
+                                            alt="Plataforma educacional">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Jogo da Velha</h5>
+                                            <p class="card-text">Jogo da Velha em Java Backend desenvolvido para uma disciplina da Uninter.</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/bellabeneveni/ticTacToe"
+                                                    target='_blank' class="btn btn-outline-dark me-3"><i
+                                                        class="bi bi-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="../static/img/Chess.png" class="card-img-top img-fluid w-100"
+                                            alt="print do blog">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Jogo de Xadrez</h5>
+                                            <p class="card-text">Jogo de Xadrez em Java (em desenvolvimento) para o curso de Java da Udemy do Professor Nélio Alves.</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/bellabeneveni/chess-system-java" target='_blank'
+                                                    class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="../static/img/Github.png" class="card-img-top img-fluid w-100"
+                                            alt="print do blog">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Github Pages</h5>
+                                            <p class="card-text">Página do Github com as principais tecnologias, desenvolvida em HTML.</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/bellabeneveni/bellabeneveni.github.io"
+                                                    target='_blank' class="btn btn-outline-dark me-3"><i
+                                                        class="bi bi-github"></i></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
                     </button>
-                  </div>
+                </div>
+
             </div>
         </section>
+
+        <!-- Para a seção de contato, foi usado Python e Flask para automatizar o envio de e-mail de contato -->
+        <section class="pt-5 pb-5" id="contato">
+
+            <div class="container mb-5">
+                <h2 class='pt-3 pb-3'>Contato</h2>
+
+                <div class="row">
+                    <!-- Infos básicas e ilustração-->
+                    <div class="col-md-5">
+                        <div class="card p-5 shadow border-0" data-anime="up">
+                            <div class="Endereço">
+                                <h4><i class="bi bi-geo-alt"></i> Localização:</h4>
+                                <p>Campinas, SP</p>
+                            </div>
+
+                            <div class="email">
+                                <h4><i class="bi bi-envelope"></i> Email:</h4>
+                                <p>isabellasmith.dev@gmail.com</p>
+                            </div>
+                            <img class="img-fluid shadow" src="../static/img/swdev.jpg"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            class='w-100'></img>
+                        </div>
+                    </div>
+
+                    <!-- Form baseado no modelo do Bootstrap-->
+                    <div class="col-md-7 mt-5 mt-md-0">
+                        <div class="card p-5 h-100 shadow border-0" data-anime="left">
+
+                            <form class="row g-3" action='/send' method="POST">
+                                <div class="col-md-6">
+                                    <label for="nome" class="form-label">Nome:</label>
+                                    <input type="text" class="form-control" id="nome" name='nome'
+                                        placeholder='Digite seu nome' required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" id="email" name='email'
+                                        placeholder='Digite seu email' required>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="mensagem" class="form-label">Mensagem:</label>
+                                    <textarea type="text" class="form-control" id="mensagem" name='mensagem' rows="10"
+                                        placeholder="Digite sua mensagem" required></textarea>
+                                </div>
+
+
+                                <div id ="buttons" class="col-12 d-flex justify-content-center mt-4">
+                                    <button id='btn-enviar' type="submit" class="btn btn-primary" style="background-color: #6d2cc7; border-color: #430b56">Enviar
+                                        mensagem</button>
+
+                                    <button id='btn-enviar-loader' class="btn btn-primary" style="background-color: #6d2cc7; border-color: #430b56" type="button" disabled>
+                                        <span class="spinner-border spinner-border-sm" role="status"
+                                            aria-hidden="true"></span>
+                                        Enviando...
+                                    </button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        <div id="alerta" class="alert alert-success alert-dismissible fade show" role="alert">
+            <i class="bi bi-check-circle-fill"></i> {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
     </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="text-center">
+                &copy; Desenvolvido por <strong>Isabella Beneveni Smith</strong>
+            </div>
+        </div>
+    </footer>
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../static/script.js"></script>
 </body>
